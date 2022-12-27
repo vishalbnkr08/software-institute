@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body{
+	background: Lavender ;
+	 
+}
+.header{
+	width: 100%;
+	margin-top: 150px;
+	
+	align-self: center; 
+}
+.header span{
+ 	font-style:italic ;
+ 	font-size: 40px;
+ 	color: Orange ;
+ }
+ .header h1{
+    font-size: 35px ;
+	font-family: sans-serif ;
+	padding-top: 10px ;
+	padding-bottom: 0 ;
+	font-style: italic ;
+    color: black ;
+}
+.header p{
+	margin-top: -15px ;
+}
+.menu{
+	align-self: center;
+	width: 100% ;
+	margin-top: 40px;
+}
+.menu a{
+	color: white ;
+	text-decoration: none;
+	text-align: center; 
+	
+	border-radius: 5px ;
+	padding: 5px 20px ;
+	font-size: 20px;
+	background: DarkSlateGray;
+}
+.menu a:hover {
+	color: white; 
+	border-radius: 5px ;
+	padding: 5px 20px ;
+	font-size: 20px;
+	background: Green;
+}
